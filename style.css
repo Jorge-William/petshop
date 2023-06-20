@@ -3,6 +3,10 @@
     border-bottom: 10px solid white;
 }
 
+#hover-zoom:hover {
+    color: black;
+    transition: 0.1s;
+}
 #servicos {
     min-height: 926px;
     background-color: #FFC03F;
