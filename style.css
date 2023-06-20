@@ -3,10 +3,17 @@
     border-bottom: 10px solid white;
 }
 
-#hover-zoom:hover {
-    color: black;
-    transition: 0.1s;
-}
+.zoom-effect {
+    overflow: hidden;
+  }
+  
+  .zoom-effect img {
+    transition: transform 0.3s;
+  }
+  
+  .zoom-effect:hover img {
+    transform: scale(1.1);
+  }
 #servicos {
     min-height: 926px;
     background-color: #FFC03F;
