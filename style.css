@@ -1,0 +1,168 @@
+#home {
+    background-color: #F37145;
+    border-bottom: 10px solid white;
+}
+
+#servicos {
+    min-height: 926px;
+    background-color: #FFC03F;
+    border-bottom: 10px solid white;
+}
+
+#plano {
+    border-bottom: 10px solid white;
+}
+
+.destaque-vermelho {
+    background-color: #FA4343;
+    height: 70px;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    padding: 10px 15px 10px 15px;
+}
+
+.destaque-branco {
+    background-color: white;
+    height: 70px;
+    color: #FA4343;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    padding: 10px 10px 10px 10px;
+}
+
+.divisao-plano {
+    min-height: 650px;
+}
+
+#sobre {
+    min-height: 926px;
+    background-color: #F37145;
+}
+
+footer {
+    background-color: #4F4542;
+    height: 141px;
+}
+
+.titulo-de-secao {
+    font-family: 'Bungee', cursive;
+    font-size: 50px;
+    /* margin-top: 50px; */
+}
+
+/* Lista de serviços */
+div>h3 {
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+#container-servicos {
+    height: 700px;
+    margin-top: 30px;
+}
+
+.card-servico {
+    min-height: 448px;
+    max-height: 448px;
+    min-width: 448px;
+    max-width: 448px;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 560px) {
+    div>h3 {
+        font-family: 'Bungee', cursive;
+        font-size: 30px;
+        color: white;
+    }
+
+    .card-servico {
+        max-height: 224px;
+        max-width: 224px;
+        border-radius: 15px;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media screen and (min-width: 993px) {
+    .divisao-plano {
+        min-height: 650px;
+        border-right: 10px white solid;
+    }
+
+    #texto-principal {
+        font-family: 'Bungee', cursive;
+        color: #FFC03F;
+        font-size: 5em;
+    }
+
+
+    #texto-secundario-hero {
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 400;
+        min-width: 280px;
+        border: #F37145 solid 1px;
+        font-family: 'Roboto Flex', sans-serif;
+    }
+}
+
+.img-servico {
+    background-color: #F37145;
+    border-radius: 15px 15px 0px 0px;
+    height: 275px;
+}
+
+#texto-principal {
+    font-family: 'Bungee', cursive;
+    color: #FFC03F;
+    font-size: 40px;
+}
+
+#texto-secundario-hero {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    min-width: 280px;
+    border: #F37145 solid 1px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#texto-sobre {
+    line-height: 34px;
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.laranja {
+    color: #F37145;
+}
+
+.amarelo {
+    color: #FFC03F;
+}
+
+.button-callToAction {
+    background-color: #FFC03F;
+    color: white;
+    height: 65px;
+    width: 168px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hero-dog-img {
+    height: 600px;
+}
